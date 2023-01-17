@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # PACKAGES
-sudo apt install git curl wget jq ripgrep tmux docker.io docker-compose
+sudo apt install git curl wget jq ripgrep tmux docker.io docker-compose fonts-jetbrains-mono
 
 # NVM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
