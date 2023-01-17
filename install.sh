@@ -34,3 +34,15 @@ cp .tmux.conf ~/
 # FZF
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
+
+# NVIM PLUGINS
+~/.local/bin/nvim +PlugInstall +qall
+
+# GIT
+git config --global user.name "kiwphi"
+git config --global user.email "120708663+kiwphi@users.noreply.github.com"
+ssh-keygen -t ed25519 -C "120708663+kiwphi@users.noreply.github.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+echo "*****"
+cat ~/.ssh/id_ed25519.pub
