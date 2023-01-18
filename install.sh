@@ -35,8 +35,11 @@ cp .tmux.conf ~/
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 
-# NVIM PLUGINS
+# NEOVIM PLUGINS
 ~/.local/bin/nvim +PlugInstall +qall
+
+# DOCKER WITHOUT SUDO
+sudo usermod -aG docker $USER
 
 # GIT
 git config --global user.name "kiwphi"
