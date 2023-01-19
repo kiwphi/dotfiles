@@ -20,7 +20,7 @@ call plug#end()
 autocmd vimenter * ++nested colorscheme gruvbox
 
 " FZF
-let $FZF_DEFAULT_COMMAND='find . \( -name node_modules -o -name .git \) -prune -o -print'
+let $FZF_DEFAULT_COMMAND='find . \( -name node_modules -o -name .git -o -name .next \) -prune -o -print'
 let $FZF_DEFAULT_OPTS="--bind \"ctrl-d:preview-down,ctrl-u:preview-up\""
 nnoremap <C-p> :Files<CR>
 nnoremap <C-g> :GFiles!?<CR>
