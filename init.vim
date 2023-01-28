@@ -24,7 +24,7 @@ let $FZF_DEFAULT_COMMAND='find . \( -name node_modules -o -name .git -o -name .n
 let $FZF_DEFAULT_OPTS="--bind \"ctrl-d:preview-down,ctrl-u:preview-up\""
 nnoremap <C-p> :Files<CR>
 nnoremap <C-g> :GFiles!?<CR>
-nnoremap <C-f> :Rg!<space>
+nnoremap <Leader>f :Rg!<space>
 
 " COC
 let g:coc_global_extensions = ['coc-html', 'coc-css', 'coc-tsserver', 'coc-json']
