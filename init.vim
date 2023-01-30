@@ -51,3 +51,4 @@ set smartcase
 set nowrap
 set mouse=
 set expandtab
+set clipboard=unnamedplus
