@@ -52,3 +52,4 @@ set nowrap
 set mouse=
 set expandtab
 set clipboard=unnamedplus
+set background=dark
