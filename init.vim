@@ -16,6 +16,11 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sheerun/vim-polyglot'
 call plug#end()
 
+" LEADER
+nnoremap <space> <Nop>
+vnoremap <space> <Nop>
+let mapleader=" "
+
 " GRUVBOX
 autocmd vimenter * ++nested colorscheme gruvbox
 
@@ -51,5 +56,5 @@ set smartcase
 set nowrap
 set mouse=
 set expandtab
-set clipboard=unnamedplus
+set clipboard+=unnamedplus
 set background=dark
